@@ -10,4 +10,5 @@ add > commit > pull > push
 ### remove ignored files
 > git ls-files --ignored --exclude-standard -z | xargs -0 git rm --cached
 > git commit -am "Remove ignored files"
-git commit -am "Remove ignored files"
+
+-
