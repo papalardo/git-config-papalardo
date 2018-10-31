@@ -1,12 +1,11 @@
-# git-config-papalardo
+# Git cmds
 
-### alias 
-add > commit > pull > push
+### Alias 
+**git call 'Description commit' master/branch** 
+> For to: add > commit > pull > push
 ```
 git config --global alias.call '!func(){ git add . && git commit -aqm "$1" && git pull origin $2 -q --no-progress && git push origin $2 -q ; }; func
 ```
-use alias
-> git call 'Description commid' branch
 
 ### ignore chmod
 > git config core.fileMode false
