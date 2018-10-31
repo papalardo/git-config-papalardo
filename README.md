@@ -2,9 +2,10 @@
 
 ### alias 
 add > commit > pull > push
-```git config --global alias.call '!func(){ git add . && git commit -aqm "$1" && git pull origin $2 -q --no-progress && git push origin $2 -q ; }; func```
-
-use
+```
+git config --global alias.call '!func(){ git add . && git commit -aqm "$1" && git pull origin $2 -q --no-progress && git push origin $2 -q ; }; func
+```
+use alias
 > git call 'Description commid' branch
 
 ### ignore chmod
